@@ -2,25 +2,41 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: linear-gradient(
+    135deg,
+    rgba(255, 110, 196, 0.5),  
+    rgba(120, 115, 245, 0.5), 
+    rgba(74, 222, 128, 0.5),  
+    rgba(250, 204, 21, 0.5),   
+    rgba(244, 114, 182, 0.5),
+    rgba(96, 165, 250, 0.5), 
+    rgba(52, 211, 153, 0.5), 
+    rgba(248, 113, 113, 0.5)
+    );
+    background-size: 200% 200%;
+}
 
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 4px;
+    margin-top: 30px;
 }
 
 #color-box{
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
+    border: 1px solid black;
 }
 
-
-
-
-
-
-
-/* Style the container class to center its content horizontally and give it some top margin for spacing.
-Style the color-box id with a fixed width and height, and set a default background color.
-Style the change-color-btn id to make it visually appealing and easily clickable. */
+#change-color-btn{
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    border: 3px solid darkred;
+    border-radius: 10px;
+    color: white;
+}
