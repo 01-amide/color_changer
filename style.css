@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#color-box{
+    height: 500px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+/* Style the container class to center its content horizontally and give it some top margin for spacing.
+Style the color-box id with a fixed width and height, and set a default background color.
+Style the change-color-btn id to make it visually appealing and easily clickable. */
